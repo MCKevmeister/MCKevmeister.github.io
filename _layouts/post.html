@@ -10,10 +10,10 @@ post_class: post-template
 <div class="container">
     <div class="row">
 
-        <!-- Post Share -->
+        <!-- Post Share
         <div class="col-md-2 pl-0">
             {% include share.html %}
-        </div>
+        </div> -->
 
         <!-- Post -->
         {% assign author = site.authors[page.author] %}
@@ -31,10 +31,10 @@ post_class: post-template
                         <img class="author-thumb" src="/assets/images/Teton.png" alt="D Stephenson">
                         {% endif %}
                     </div>
-                    <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
+                    <!-- <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
                         <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
                         <span class="author-description">{{ author.description }}</span>
-                    </div>
+                    </div> -->
                 </div>
                 {% endif %}
 

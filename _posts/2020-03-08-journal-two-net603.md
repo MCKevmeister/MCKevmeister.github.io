@@ -2,7 +2,7 @@
 layout: post
 title:  "Journal #Two [NET603]"
 author: d-stephenson
-categories: [ NET603, Journal, Practical Network Development ]
+categories: [ NET603 ]
 image: assets/images/NetJ2.png
 featured: true
 hidden: true

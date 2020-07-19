@@ -2,7 +2,7 @@
 layout: post
 title:  "Journal #Eleven [DAT601]"
 author: d-stephenson
-categories: [ DAT601, Journal, Database Design & Administration ]
+categories: [ DAT601 ]
 image: assets/images/check_constraint.jpg
 featured: true
 hidden: true

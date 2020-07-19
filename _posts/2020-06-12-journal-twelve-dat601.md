@@ -2,7 +2,7 @@
 layout: post
 title:  "Journal #Twelve [DAT601]"
 author: d-stephenson
-categories: [ DAT601, Journal, Database Design & Administration ]
+categories: [ DAT601 ]
 image: assets/images/clusterDiagram.png
 featured: true
 hidden: true

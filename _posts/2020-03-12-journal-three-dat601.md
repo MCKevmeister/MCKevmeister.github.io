@@ -2,7 +2,7 @@
 layout: post
 title:  "Journal #Three [DAT601]"
 author: d-stephenson
-categories: [ DAT601, Journal, Database Design & Administration ]
+categories: [ DAT601 ]
 image: assets/images/conceptualDiagramV.2.1.PNG
 featured: true
 hidden: true

@@ -2,7 +2,7 @@
 layout: post
 title:  "Journal #Eight [DAT601]"
 author: d-stephenson
-categories: [ DAT601, Journal, Database Design & Administration ]
+categories: [ DAT601 ]
 image: assets/images/sqlServer.png
 featured: true
 hidden: true

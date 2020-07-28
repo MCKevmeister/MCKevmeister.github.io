@@ -6,7 +6,7 @@ author: Mark Christison
 image: assets\images\Zork_photo.jpg
 tags: [SEC602]
 featured: true
-hidden: true
+hidden: false
 ---
 
 ## Fundamental Storyline

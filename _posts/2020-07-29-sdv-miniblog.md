@@ -14,4 +14,4 @@ Per chance I was playing around in the settings of unity and came across the and
 
 What loads next, well its the exact game you have been working on in unity. Neat. The only thing that wasn't in the already programmed game was the title screen, some of the logic and the sensor input.
 
-Short though, an additional daily thought or journal if you will.x`
+Short though, an additional daily thought or journal if you will.

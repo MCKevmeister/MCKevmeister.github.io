@@ -3,13 +3,13 @@ layout: post
 title: "SDV602 Journal: Guesswork of bunny run"
 date: 2020-08-02 13:27
 author: Mark Christison
-image:
+image: assets\images\question_mark.jpg
 tags: [SDV602]
 summary:
 featured: true
 ---
 
-# The Video Series
+## The Video Series
 
 I cannot fault the creator of this video series. It was great for the time when it was made. My comments in this blog refer to the tutalige for NMIT since this was a prescribed activity.
 
@@ -27,11 +27,7 @@ It's not difficult to do the work when I know what I am doing but using 4 year o
 
 The GUI of github desktop has also changed since the release of this video series.
 
-## New GitHub Desktop
-
-## Old GitHub Desktop
-
-. I am at least comfortable with github and github desktop so I could understand what was happening for the version control.
+I am at least comfortable with github and github desktop so I could understand what was happening for the version control.
 
 The video tutorial is fine but dated. While the core concepts are there, to learn them at the same time as translating what you are learning into the modern perspective with the tools that I am working with (the current version of unity).
 
@@ -54,10 +50,7 @@ Seraching for unity in the Information and Communication Technology:
 Seraching for unity with no other restritions:
 ![Total Jobs jobs](https://mckevmeister.github.io/assets/images/seek5.png)
 
-
 It seems like there is a lot to learn and very little reward offered once learned. I want to ["Become work ready"](https://www.nmit.ac.nz/news-article/show/become-work-ready) (Become Work Ready,2020). It seems like NMIT is teaching me skills which are not in demand on the job market.
-
-
 
 ### Bibliography
 

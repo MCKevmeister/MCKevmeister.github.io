@@ -54,6 +54,6 @@ It seems like there is a lot to learn and very little reward offered once learne
 
 ### Bibliography
 
-Become work ready. (2020). Nelson Marlborough Institute of Technology. https://www.nmit.ac.nz/news-article/show/become-work-ready
+Become work ready. (2020). Nelson Marlborough Institute of Technology. [https://www.nmit.ac.nz/news-article/show/become-work-ready](https://www.nmit.ac.nz/news-article/show/become-work-ready)
 
 ‌

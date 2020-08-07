@@ -6,7 +6,7 @@ category:
 author: Mark Christison
 tags: []
 summary:
-featured: true
+featured: false
 image:
 ---
 

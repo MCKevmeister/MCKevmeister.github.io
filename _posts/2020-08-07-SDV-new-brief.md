@@ -6,6 +6,7 @@ category:
 author: Mark Christison
 image: assets\images\map.png
 tags: [SEC602]
+category: [SDV602]
 featured: true
 hidden: true
 ---

@@ -5,7 +5,7 @@ date: 2020-08-02 13:27
 author: Mark Christison
 image: assets\images\question_mark.jpg
 tags: [SDV602]
-summary:
+category: [SDV602]
 featured: true
 ---
 

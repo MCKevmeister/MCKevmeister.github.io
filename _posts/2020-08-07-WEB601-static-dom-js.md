@@ -6,7 +6,7 @@ category:
 author: Mark Christison
 category: [WEB601]
 featured: false 
-hidden: false
+hidden: true
 image: assets\images\local_barber_logo.png
 ---
 

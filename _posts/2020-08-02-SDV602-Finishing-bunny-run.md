@@ -6,7 +6,7 @@ author: Mark Christison
 image: assets\images\question_mark.jpg
 tags: [SDV602]
 category: [SDV602]
-featured: true
+featured: false
 ---
 
 ## The Video Series

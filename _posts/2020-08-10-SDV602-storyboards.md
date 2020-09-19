@@ -7,7 +7,7 @@ author: Mark Christison
 image: assets\images\green pin.png
 tags: [SDV602]
 category: [SDV602]
-featured: true
+featured: false
 hidden: true
 ---
 

@@ -6,7 +6,7 @@ author: Mark Christison
 image: assets\images\flux-diagram-white-background.png
 tags: [WEB601]
 category: [WEB601]
-featured: false
+featured: true
 hidden: false
 ---
 

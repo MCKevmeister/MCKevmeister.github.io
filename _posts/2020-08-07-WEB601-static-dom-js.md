@@ -5,8 +5,8 @@ date: 2020-08-07 11:58
 category: 
 author: Mark Christison
 category: [WEB601]
-featured: false 
-hidden: true
+featured: true 
+hidden: false
 image: assets\images\local_barber_logo.png
 ---
 

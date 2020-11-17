@@ -7,8 +7,8 @@ author: Mark Christison
 image: assets\images\green pin.png
 tags: [SDV602]
 category: [SDV602]
-featured: false
-hidden: true
+featured: true
+hidden: false
 ---
 
 Having decided on the design and technology that I will be using to develop this application, I have created an intial set of storyboards that will serve as a template from which I will carry on the development from.

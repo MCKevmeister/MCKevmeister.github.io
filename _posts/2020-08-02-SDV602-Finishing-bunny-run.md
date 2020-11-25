@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "SDV602: Guesswork of bunny run"
+title: "Guesswork of bunny run"
 date: 2020-08-02 13:27
 author: Mark Christison
 image: assets\images\question_mark.jpg
-tags: [SDV602]
 category: [SDV602]
 featured: true
 hidden: false

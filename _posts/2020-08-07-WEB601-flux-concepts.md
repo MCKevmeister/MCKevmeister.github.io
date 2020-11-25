@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "WEB601: Flux Concepts"
+title: "Flux Concepts"
 date: 2020-08-07 13:48
 author: Mark Christison
 image: assets\images\flux-diagram-white-background.png
-tags: [WEB601]
 category: [WEB601]
 featured: true
 hidden: false

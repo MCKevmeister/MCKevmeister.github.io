@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "WEB601: Building a static DOM"
+title: "Building a static DOM"
 date: 2020-08-07 11:58
 category: 
 author: Mark Christison

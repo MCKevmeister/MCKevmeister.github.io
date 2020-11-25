@@ -1,11 +1,9 @@
 ---
 layout: post
-title: "SDV602: Storyboard draft"
+title: "Storyboard draft"
 date: 2020-08-10 17:45
-category:
 author: Mark Christison
 image: assets\images\green pin.png
-tags: [SDV602]
 category: [SDV602]
 featured: true
 hidden: false

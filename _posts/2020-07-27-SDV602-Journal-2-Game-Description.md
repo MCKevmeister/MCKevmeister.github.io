@@ -1,10 +1,9 @@
 ---
 layout: post
-title: "SDV602: Game Description"
+title: "Game Description"
 date: 2020-07-27 12:57
 author: Mark Christison
 image: assets\images\Zork_photo.jpg
-tags: [SDV602]
 category: [SDV602]
 featured: true
 hidden: false

@@ -17,7 +17,7 @@ To me, little r 'research' means quickly searching for information or data using
 
 Big r "research" seems like it is the more formalized Research. The type of studies that are entered into scientific journals, that involve a lot of money and tightly controlled tests to uncover something that was previously unknown to humankind or to prove/disprove already published data. This type of research takes time and effort, and as such money.
 
-### Do you think you will ever need research skills?
+### Do I think I will ever need research skills?
 
 As I have previously mentioned, yes, it seems somewhat pointless to ask the question as I have undoubtably used research before and will do for most of my larger life choices that I have yet to make.
 
@@ -25,7 +25,7 @@ Also, in my time studying at NMIT I have used research for most of my projects t
 
 Moreover, research has become invaluable for me in solving everyday problems. I am unsure of anyone who when struck with an issue would not perform research to solve the problem. The tools may have changed slightly as the world has move more online, however the same basic concept of general research still exists. When people of the internet age have an issue, they turn to search engines such as google, duckduckgo, Wikipedia or other sources. When I was growing up, I was lucky that my parent’s purchased encyclopaedias and I would thumb through them when I was bored at home to look at the interesting pictures and read about different topics. They became more useful as I grew older and needed to do primary and intermediate schoolwork as my reading became more tightly focused.
 
-### What do you think a research journal is and who is it written for?
+### What do I think a research journal is and who is it written for?
 
 Research journals are organized places for formalized 'Research' to be published. They normally have an area of focus, be it a specific science or area of study. Some that come to mind are the following
 
@@ -39,11 +39,7 @@ To have one's work published in such a journal would be quite the honour, howeve
 
 Additionally, new discoveries are heavily favoured by journals as discovering something new can sell more copies of a journal than can republishing a study that supports the findings of a previous study. As such I am aware that the amount of repeat studies is dropping and without finding the exact study (aka I am still not doing "research" yet) from memory there was a study done on the amount of repeat research being done being far less than 50%.
 
-I knew that I had heard about it and after a bit of searching online the term that I was trying to remember is known as the "reproducibility crisis". Scientists that have followed up on previously published works have been unable to replicate the results of the work done. The journal Nature asked 1576 scientists to reproduce the works of their peers and over 70% of them were unable to do so. Additionally, John Ioannids investigated the reasons as to why in his work "Why most Published Research Findings are False". He claims several different reasons as to the bold title of his work which include bias, small study sizes, poor analysis of data gathered, financial bias and how in-vogue or popular the area of study is.
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1182327/
-
-https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970
+I knew that I had heard about it and after a bit of searching online the term that I was trying to remember is known as the "reproducibility crisis". Scientists that have followed up on previously published works have been unable to replicate the results of the work done. The journal Nature asked 1576 scientists to reproduce the works of their peers and over 70% of them were unable to do so (Baker, 2016). Additionally, John Ioannids investigated the reasons as to why in his work "Why most Published Research Findings are False" (Ioannidis, 2005). He claims several different reasons as to the bold title of his work which include bias, small study sizes, poor analysis of data gathered, financial bias and how in-vogue or popular the area of study is.
 
 Notably, there have been efforts made to democratize the information that journals try to keep behind a paywall. The website call Sci-Hub was created to circumvent the barriers to accessing the published works, which are often funded by government agencies and provides access to PDF versions of full papers where possible.
 
@@ -79,8 +75,13 @@ So plagiarism is a serious matter, and this student pledges to follow the guidel
 
 ## References
 
+Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature, 533(7604), 452–454. https://doi.org/10.1038/533452a
+
 Bradley, L., Noble, N., & Hendricks, B. (2020). The APA Publication Manual: Changes in the Seventh Edition. The Family Journal, 28(2), 126–130. https://doi.org/10.1177/1066480720911625
+
+Ioannidis, J. P. A. (2005). Why Most Published Research Findings Are False. PLoS Medicine, 2(8), e124. https://doi.org/10.1371/journal.pmed.0020124
 
 Nelson Marlborough Institute of Technology. (2019). Student Charter. https://nmit.deskpro.com/dps-fs/b6c811990f931e8856e0014219af96c234773d70/files/6035/5861/5860869WRBCKRPPPJKHKTD0-Student-Charter.pdf
 
 Plagiarism.org. (2017, May 18). What is Plagiarism? - Plagiarism.org. Plagiarism.org. https://www.plagiarism.org/article/what-is-plagiarism
+‌

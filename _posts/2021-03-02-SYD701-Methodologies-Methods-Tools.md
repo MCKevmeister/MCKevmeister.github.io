@@ -86,6 +86,6 @@ I am interested to learn about Agile and Dev-ops, a lot because they have become
 
 References
 
-Avison, D. E., & Fitzgerald, G. (1995). Information systems development : methodologies, techniques and tools (2nd ed., p. 10). Mcgraw-Hill.
+Avison, D. E., & Fitzgerald, G. (1995). Information systems development : Methodologies, Techniques and Tools (2nd ed., p. 10). Mcgraw-Hill.
 
 Dale, L. (2020, February 5). Dr. Kelly Starrett and Juliet Starrett Help You Get Ready for Anything Life Throws You. 24Life. https://www.24life.com/dr-kelly-starrett-and-juliet-starrett-help-you-get-ready-for-anything-life-throws-you/

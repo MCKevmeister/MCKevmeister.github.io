@@ -4,7 +4,7 @@ title: "Meta-Research"
 date: 2021-3-2 15:30
 author: Mark Christison
 image: assets\images\research.jpg
-category: [SEC602]
+category: [RES701]
 featured: true
 hidden: false
 ---

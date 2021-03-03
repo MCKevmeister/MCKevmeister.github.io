@@ -84,7 +84,7 @@ This to me seems broad and rather vague, but I believe that is the intent of the
 
 I am interested to learn about Agile and Dev-ops, a lot because they have become somewhat buzz words in the world of software development, and I would like to be able to talk with some confidence about them with fellow developers or future employers. I am also aware that the tutor for Systems Development Methodologies might have a slight bias towards these and it would be prudent to invest time and effort into what the tutor would be excited to teach, to make it more enjoyable for both the tutor and myself as a learner.
 
-References
+## References
 
 Avison, D. E., & Fitzgerald, G. (1995). Information systems development : Methodologies, Techniques and Tools (2nd ed., p. 10). Mcgraw-Hill.
 

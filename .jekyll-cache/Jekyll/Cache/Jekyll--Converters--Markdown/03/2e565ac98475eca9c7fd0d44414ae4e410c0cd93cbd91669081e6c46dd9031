@@ -1,0 +1,33 @@
+I"�<h2 id="the-functions-of-bitlocker">The functions of BitLocker</h2>
+
+<p>BitLocker Drive Encryption is a data encryption that utilizes AES encryption algorithm. It is an optional feature that can be enabled in the Windows 10 operating system. It’s purpose is</p>
+
+<ul>
+  <li>Encryption/Decryption of data</li>
+  <li>Prevention of loss of data</li>
+  <li>Safe decommissioning of damaged or old drives</li>
+</ul>
+
+<p>BitLocker utilizes the Trusted Platform Module (TPM) 1.2 standard. TPM is a microchip that’s main purpose is to provide security related functions, primarily encryption and storage of keys. The TPM is normally installed onto the motherboard of a computer. While the TPM can store many keys, it will hold one master key called the storage root key. The TPM creates the key and only stores it in its local memory. It never releases the key to any other part of the system (normally, except in a few cases such as <a href="https://nvd.nist.gov/vuln/detail/CVE-2017-15361">CVE-2017-15361</a> where the TPM master key has been exposed during boot).</p>
+
+<p>The TPM runs system checks during start up and checks signatures of hardware in the computer to ensure that the system has not been attacked. If a hardware component does not return a registered signature then the TPM will disallow regular boot and restrict the computer from booting.</p>
+
+<h2 id="bitlocker-user-protection">BitLocker user protection</h2>
+
+<p>BitLocker is Microsoft closed source encryption program that utilizes the TPM. BitLocker allows users to encrypt portions or full drives in the computer that can only be unlocked with a password or key. This is beneficial if there is any sensitive data on the drives that are to be encrypted, as even if the drive is removed from the computer, the data on it will be unable to be read without the decryption key or password.</p>
+
+<h2 id="recovery-key-secure-storage">Recovery Key Secure Storage</h2>
+
+<p>There are 4 main ways of storing any private key which are</p>
+
+<ul>
+  <li>Writing the password down and storing it on digital medium</li>
+  <li>Writing the password down on paper</li>
+  <li>Storing the private key on removable media (USB)</li>
+  <li>Memorizing the password</li>
+</ul>
+
+<p>While no option is ultimately secure there are benefits to choosing some options of others. Storing the key on the same computer as the encrypted drive offers the least protection as an attacker only needs to find the file with the key to unencrypt the drive and access the data. Writing the recovery key on paper or saving the private key on removable media and storing it in the world offers the benefit of a step of removal from the computer and any possible remote attack on the system itself, however has weakness in that it is vulnerable to fire or physical damage which could render the data stored in the encrypted drive lost forever. A mitigation step for this would be to store the key in several places (possibly 2 or more safety deposit boxes). However in doing this, it exposes the key to thief or otherwise lose. Another way of key storage is purely in memory, however this is inherently flawed in that if the attacker knows the key is stored in human memory, then that person is vulnerable to the <a href="https://xkcd.com/538/">$5 Wrench attack</a>.</p>
+
+<p>Ultimately, there is no “best” way to store keys. Overall a mixed plan may provide the most resiliency but be vulnerable to many attack vectors. Minimizing the attack surface might then make keys vulnerable to loss or damage. Security is a trade-off.</p>
+:ET

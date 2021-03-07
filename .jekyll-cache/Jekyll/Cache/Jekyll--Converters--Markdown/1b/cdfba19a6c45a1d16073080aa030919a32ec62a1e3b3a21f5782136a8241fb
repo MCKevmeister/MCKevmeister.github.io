@@ -1,0 +1,49 @@
+I"�<p>Windows Server Backup is a optional feature that can be installed on Windows Server’s allowing the machine to preform backup and recovery functions. The feature once installed allows the administrator of the machine to backup</p>
+
+<ul>
+  <li>full volumes</li>
+  <li>selected volumes</li>
+  <li>the system state</li>
+  <li>specific files and folders</li>
+</ul>
+
+<p>The feature can also be used to back up virtual machines that may be operating on the server where the feature is installed, providing additional downstream benefits to any virtual machines running on the server.</p>
+
+<p>To install this role on Windows Server’s, there are 2 ways, through server manager or through PowerShell. In Server Manager the feature can be installed by navigating to “Add roles and Features” then selecting the Windows Server Backup feature from the list. After installed, the roll is configured as well through Server Manager and the Management Console</p>
+
+<p>To simplify the use of the backups, the task can be automated to a specific of the week during which there would be low system use such as at 2am on a Friday evening. In this way, all the work for the week would be backed up while system resources would be not needed for normal operation tasks that the server would preform.</p>
+
+<p>To back up effectively, it is best to follow the 3-2-1 approch to back up. The concept states that it is best to have at least 3 complete backup’s on at least 2 different storage mediums, with at least 1 backup offsite.</p>
+
+<p>To accomplish the 3-2-1 approch, there are a few options to select from, which include:</p>
+
+<ul>
+  <li>Using multiple external hard drives that are used to store the backups on and swapped out and taken off-site for storage</li>
+  <li>Using a cloud service to store the backup to</li>
+</ul>
+
+<p>Having 3 or more full backup’s allows for complete failure of 1 or 2 of the backup’s to complety fail as well as the system itself, and still allow the system to be brought back up on site or elsewhere. It is likely that if 1 or 2 of the back ups are stored on site and there was an accident such as a fire or flood that the system and backups would be damaged irreparably, which is why at least 1 backup should be stored off-site.</p>
+
+<p>Which ever option is employed, it is best to ensure that the backups are encrypted to ensure that the data that is on them is secured from thief or manipulation from a threat actor. This can be managed through the use of BitLocker, which is also a feature that is available on windows machines, or another form of encryption.</p>
+
+<p>Ensuring that data is correctly backed up is critical to avoid the possibility of loss of data from:</p>
+
+<ul>
+  <li>Physical damage to the machines/drives through flood or fire</li>
+  <li>Theft of drives/data</li>
+  <li>Malware/viruses/trojan’s</li>
+  <li>Data corruption</li>
+  <li>Ransomware attacks</li>
+  <li>Natural Disasters</li>
+  <li>Power cuts</li>
+</ul>
+
+<p>Not ensuring a functional backup leaves individuals and/or businesses vulnerable to the above threats, as well as other unforeseen events that could cause damage to the assets. Creating a well thought out back up strategy as well as having a disaster recovery plan in place before events occur allows a quick and efficient return to normal operation of the system.</p>
+
+<p>References</p>
+
+<p>Mayer, A. (2017, November 13). The 3-2-1 Backup Rule – Data Protection Strategy. Official NAKIVO Blog. https://www.nakivo.com/blog/3-2-1-backup-rule-efficient-data-protection-strategy/</p>
+
+<p>Microsoft. (2016, October 13). Windows Server Backup Feature Overview. Docs.Microsoft.Com. https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj614621(v=ws.11)#feature-description
+‌</p>
+:ET

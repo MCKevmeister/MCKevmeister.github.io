@@ -1,0 +1,176 @@
+I"�"<h2 id="windows-server-2019">Windows Server 2019</h2>
+
+<p>The following are instructions that are for the set up of windows 2019 server using PowerShell scripts.</p>
+
+<h3 id="set-static-ip-for-server">Set static IP for Server</h3>
+
+<ol>
+  <li>
+    <p>Run PowerShell with Administrator Privileges</p>
+
+    <p><img src="https://mckevmeister.github.io/assets/images/powershellAdmin.png" alt="Powershell Admin" /></p>
+  </li>
+  <li>Check for the correct network interface index
+    <pre><code class="language-PowerShell">  PS C:\Users\Administrator&gt; Get-NetIPInterface -AddressFamily IPv4
+</code></pre>
+  </li>
+  <li>Set Static IP 10.0.0.1 and Gateway 10.0.0.3 as per network requirements
+    <pre><code class="language-PowerShell">PS C:\Users\Administrator&gt; New-NetIPAddress -InterfaceIndex 6 -AddressFamily IPv4 -IPAddress "10.0.0.01" -PrefixLength 24 -DefaultGateway "10.0.0.3"
+</code></pre>
+    <h3 id="allow-icmp-echo-reply-though-powershell">Allow ICMP Echo Reply though Powershell</h3>
+  </li>
+</ol>
+
+<p>Windows firewall by default will block all ping requests. To allow this to occur follow these steps</p>
+
+<ol>
+  <li>Run Powershell with Administrator Privilages
+<img src="https://mckevmeister.github.io/assets/images/AllowICMP.png" alt="Powershell Admin" /></li>
+  <li>Run the following PS script
+    <div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># allow ICMPv4</span><span class="w">
+</span><span class="n">PS</span><span class="w"> </span><span class="nx">C:\Users\Administrator</span><span class="err">&gt;</span><span class="w"> </span><span class="nx">New-NetFirewallRule</span><span class="w"> </span><span class="se">`
+</span><span class="nt">-Name</span><span class="w"> </span><span class="s1">'ICMPv4'</span><span class="w"> </span><span class="se">`
+</span><span class="nt">-DisplayName</span><span class="w"> </span><span class="s1">'ICMPv4'</span><span class="w"> </span><span class="se">`
+</span><span class="nt">-Description</span><span class="w"> </span><span class="s1">'Allow ICMPv4'</span><span class="w"> </span><span class="se">`
+</span><span class="nt">-Profile</span><span class="w"> </span><span class="nx">Any</span><span class="w"> </span><span class="se">`
+</span><span class="nt">-Direction</span><span class="w"> </span><span class="nx">Inbound</span><span class="w"> </span><span class="se">`
+</span><span class="nt">-Action</span><span class="w"> </span><span class="nx">Allow</span><span class="w"> </span><span class="se">`
+</span><span class="nt">-Protocol</span><span class="w"> </span><span class="nx">ICMPv4</span><span class="w"> </span><span class="se">`
+</span><span class="nt">-Program</span><span class="w"> </span><span class="nx">Any</span><span class="w"> </span><span class="se">`
+</span><span class="nt">-LocalAddress</span><span class="w"> </span><span class="nx">Any</span><span class="w"> </span><span class="se">`
+</span><span class="nt">-RemoteAddress</span><span class="w"> </span><span class="nx">Any</span><span class="w">
+</span></code></pre></div>    </div>
+  </li>
+  <li>Confirm that the script ran successfully
+    <div class="language-powershell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># confirm setting</span><span class="w">
+</span><span class="n">PS</span><span class="w"> </span><span class="nx">C:\Users\Administrator</span><span class="err">&gt;</span><span class="w"> </span><span class="nx">Get-NetFirewallRule</span><span class="w"> </span><span class="o">|</span><span class="w"> </span><span class="n">Where-Object</span><span class="w"> </span><span class="nx">Name</span><span class="w"> </span><span class="o">-Like</span><span class="w"> </span><span class="s1">'ICMPv4'</span><span class="w">
+</span></code></pre></div>    </div>
+    <p>This will produce a detailed description of the rule that has just been set up using PowerShell.</p>
+  </li>
+</ol>
+
+<h3 id="remote-access-to-the-server">Remote access to the server</h3>
+
+<p>Remoting into the server can be done on any windows 10 machine following these steps</p>
+<ol>
+  <li>
+    <p>Running “mstsc”
+<img src="https://mckevmeister.github.io/assets/images/remoteDesktop1.png" alt="Running mstsc" /></p>
+  </li>
+  <li>
+    <p>Input the hostname or IP of the computer to connect to and administrator credentials of the remote machine</p>
+  </li>
+</ol>
+
+<h2 id="ubuntu-2004-focal-fossa">Ubuntu 20.04 Focal Fossa</h2>
+
+<p>Commands for ubuntu are written as though the user is using the root account. If the user is not using the root account add <code class="language-plaintext highlighter-rouge">Bash Sudo </code></p>
+
+<h2 id="static-ip">Static IP</h2>
+
+<p>After basic install of ubuntu as well as creation of the root account has been completed, static IP can be set for Ubuntu</p>
+
+<pre><code class="language-Bash"> root@dlp:~# vi /etc/netplan/01-netcfg.yaml
+# create new
+network:
+  ethernets:
+    # interface name
+    enp1s0:
+      dhcp4: no
+      # IP address/subnet mask
+      addresses: [10.0.0.2/24]
+      # default gateway
+      gateway4: 10.0.1.1
+      nameservers:
+        # name server to bind
+        addresses: [10.0.0.1]
+      dhcp6: no
+  version: 2
+# apply settings
+root@dlp:~# netplan apply
+root@dlp:~# ip addr
+</code></pre>
+
+<p>There will be a print out in the terminal that will have all the ip settings of the adaptors on the ubuntu machine.</p>
+
+<h3 id="mariadb">MariaDB</h3>
+
+<h4 id="installing-mariadb">Installing MariaDB</h4>
+
+<ol>
+  <li>
+    <p>Run the following command from the terminal</p>
+
+    <pre><code class="language-Bash">root@www:~# apt -y install mariadb-server
+root@www:~# mysql_secure_installation
+</code></pre>
+    <p>This will start the mysql installer. It will ask a series of start up questions for administrator account creation as well as allowing remote login.
+From there Maria DB can be run by executing the following command</p>
+  </li>
+</ol>
+
+<pre><code class="language-Bash">root@www:~# mysql
+</code></pre>
+
+<p>My sql will now be open from the command line. From there databases can be interacted with via the terminal. Create, insert, update and delete statements can all be executed to interact with databases that mariadb manages.</p>
+
+<pre><code class="language-Bash">MariaDB [(none)]&gt; create database test_database;
+MariaDB [(none)]&gt; create table test_database.test_table (id int, name varchar(50), address varchar(50), primary key (id));
+MariaDB [(none)]&gt; insert into test_database.test_table(id, name, address) values("001", "Ubuntu", "Hiroshima");
+MariaDB [(none)]&gt; select * from test_database.test_table;
+MariaDB [(none)]&gt; drop database test_database;
+</code></pre>
+
+<p>To quit out from MariaDB execute the following</p>
+
+<pre><code class="language-Bash">MariaDB [(none)]&gt; exit
+</code></pre>
+
+<h2 id="firewall-rules">Firewall rules</h2>
+
+<h3 id="pfsense">pfSense</h3>
+
+<p>pfSense is a free open source firewall operating system. It is highly extensible with packages that can be downloaded to extend the base functionality including</p>
+<ul>
+  <li>DHCP server</li>
+  <li>DNS server</li>
+  <li>IPsec VPN end point</li>
+  <li>Captive Portal for internet access
+pfSense when installed on hardware, it can be managed via the webGUI.</li>
+</ul>
+
+<h3 id="adding-firewall-rules-to-pfsense">Adding firewall rules to pfSense</h3>
+
+<p>In webGUI, firewall rules can be added and edited from Status &gt; System Logs, Firewall tab. There are 2 types of rules that can be created</p>
+
+<ol>
+  <li>Blocking Rule</li>
+  <li>Passing Rule</li>
+</ol>
+
+<p>In addition to the webGUI, there is a command line program called easy role that manages the creation of firewall rules.</p>
+
+<pre><code class="language-Shell">: easyrule
+usage:
+Blocking only requires an IP to block
+    easyrule block &lt;interface&gt; &lt;source IP&gt;
+Passing requires more detail, as it must be as specific as possible. The destination port is
+optional if you're using a protocol without a port (e.g. ICMP, OSPF, etc).
+    easyrule pass &lt;interface&gt; &lt;protocol&gt; &lt;source IP&gt; &lt;destination ip&gt; [destination port]
+Block example:
+    easyrule block wan 1.2.3.4
+Pass example (protocol with port):
+    easyrule pass wan tcp 1.2.3.4 192.168.0.4 80
+Pass example (protocol without port):
+    easyrule pass wan icmp 1.2.3.4 192.168.0.4
+</code></pre>
+
+<h3 id="network-diagram">Network Diagram</h3>
+
+<p>Below is a logical network diagram that includes some information about the ports on what interfaces would be allowed and the firewall rules that would be set up on pfSense.
+<img src="https://mckevmeister.github.io/assets/docs/SEC602-DMZ-network.pdf" alt="Network Diagram" /></p>
+
+<object data="/assets/docs/SEC602-DMZ-network.pdf" type="application/pdf" width="100%" height="800px">
+  <p>Network diagram<a href="assets/docs/SEC602-DMZ-network.pdf"></a></p>
+</object>
+:ET

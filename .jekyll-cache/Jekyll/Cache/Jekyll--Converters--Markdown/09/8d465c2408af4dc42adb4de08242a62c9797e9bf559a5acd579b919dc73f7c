@@ -1,0 +1,10 @@
+I"È<div class="section-title">
+<h2><span>WEB601</span></h2> 
+</div>
+
+<div class="row listrecent">
+    {% for post in site.categories.WEB601 %} 
+    {% include featuredbox.html %}
+    {% endfor %}
+</div>
+:ET

@@ -1,0 +1,32 @@
+I"F<p>The Ministry of Education dictates that all schools meet a certain standard of security for their school networks. There are several guides which cover:</p>
+
+<ul>
+  <li>Cabling</li>
+  <li>Switching</li>
+  <li>Wireless LAN’s</li>
+</ul>
+
+<p>The standards are mainly put in place to assist school in creating effective policies of their own, but intend for them to be used by contractors and consultants and to be abided in.</p>
+
+<p>The Ministry requires that all schools report to them upon request to ensure that all works and projects are compliant with the policies and standards that they have put in place. Along with this, if issues are identified, then they must be identified to the Ministry immediately and brought up to the standards set as soon as possible.</p>
+
+<p>As NMIT is a provider, they must be complaint with the policies and standards that are set by the Ministry. To meet the needs of learners at NMIT, a network capable of delivering internet to all devices at the school is necessary. As learners are encouraged to <a href="https://support.nmit.ac.nz/kb/articles/what-are-the-bring-your-own-device-byod-specifications">bring their own devices</a> (BYOD), this almost makes a wireless network a necessity. Added to that, the prevalence of cell phones and the high needs of data connections to those device, a wireless network is a necessity for any modern school.</p>
+
+<p>The documentation set by the Ministry for <a href="https://www.education.govt.nz/assets/Documents/School/Running-a-school/Technology-in-schools/technical-info/MoE-School-WLAN-Guidelines-Build-and-Maintain-May-2015-v1-2.pdf">Wireless networks</a> is rather through. It lays out security policies and practices as well as providing practical examples of how to implement the solutions that are recommended in the documentation.</p>
+
+<p>Section 3.1.6 on page 16, specifies that all school networks of medium and large size should use at a minimum WPA2 Enterprise, using an Authentication Server(RADIUS) and EAP-TLS or PEAP-TLS for user authentication as well as 802.1X port based access control. As NMIT has campuses in both Nelson, Richmond and Marlborough, with some distant campuses in Auckland (maybe not anymore?), this easily classifies NMIT in this category.</p>
+
+<p>Below are the settings of the NMIT network called NMIFI.</p>
+
+<p><img src="/assets/images/NMIFI-IP-settings.png" alt="NMIFI-IP-settings" /></p>
+
+<p>This shows that NMIT are using the 802.11ac protocol, WPA2 Enterprise, and P-EAP authentication. This is all complaint with the Ministry of Educations documentation.</p>
+
+<p>Physical inspection of the rooms shows that the hardware such as switches and routers, are in locked cabinets. An assumption can be made that all BYOD devices are on their own VLAN to be complaint, although this is hard to confirm without access to the server and settings. An assumption is also made that NMIT are using a RADIUS server, as this would provide AAA simply and easily once all the configuration has been done. This assumption is made by the fact that several services are made available through the NMIT log-in information (office365, Moodle, NMIT’s website log-in).</p>
+
+<p>References</p>
+
+<p>Ministry of Education. (2015). Technology in Schools School Wireless LAN Guidelines -Building and Maintaining a Wireless Network Ministry of Education: Technology in Schools School Wireless LAN Guidelines: Build and Maintain a Wireless Network v1.2 - Document Information Acknowledgements. https://www.education.govt.nz/assets/Documents/School/Running-a-school/Technology-in-schools/technical-info/MoE-School-WLAN-Guidelines-Build-and-Maintain-May-2015-v1-2.pdf</p>
+
+<p>Ministry of Education. (2020, July 28). Responsibilities of an ICT contractor. Education in New Zealand. https://www.education.govt.nz/school/property-and-transport/suppliers/technical-information/responsibilities-of-an-ict-contractor/</p>
+:ET

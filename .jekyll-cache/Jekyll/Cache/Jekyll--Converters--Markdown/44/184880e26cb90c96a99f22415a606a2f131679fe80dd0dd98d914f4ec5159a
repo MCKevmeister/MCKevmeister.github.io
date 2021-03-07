@@ -1,0 +1,10 @@
+I"Á<div class="section-title">
+  <h2><span>SYD701</span></h2> 
+</div>
+
+<div class="row">
+    {% for post in site.categories.SYD701 %} 
+      {% include featuredbox.html %}
+    {% endfor %}
+</div>
+:ET

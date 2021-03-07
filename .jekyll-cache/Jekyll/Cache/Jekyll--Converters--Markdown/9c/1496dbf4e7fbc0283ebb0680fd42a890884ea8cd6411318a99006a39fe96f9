@@ -1,0 +1,47 @@
+I"†<h2 id="cain--abel-initiating-a-brute-force-attack">Cain &amp; Abel: Initiating a brute force attack</h2>
+
+<p>Cain &amp; Abel is freeware composed of 2 applications: Cain and Abel.</p>
+
+<h3 id="cain">Cain</h3>
+
+<p>Cain is used for password extraction and recovery.</p>
+
+<h3 id="abel">Abel</h3>
+
+<p>Abel runs a Windows NT service with protects passwords that are transmitted over the local network.</p>
+
+<p>Itâ€™s other primary features are:</p>
+
+<ul>
+  <li>Cracking encrypted Passwords</li>
+  <li>Preforming dictionary attacks</li>
+  <li>Preforming brute force attacks</li>
+  <li>ARP spoofing</li>
+  <li>Calculating Hashes
+    <ul>
+      <li>LM</li>
+      <li>NTLM</li>
+      <li>MD5</li>
+      <li>SHA-1</li>
+      <li>SHA-2</li>
+    </ul>
+  </li>
+</ul>
+
+<p>There are many tutorials online, here is a tutorial video similar to the work that we have done inside Practice Labs.
+<a href="https://www.youtube.com/watch?v=dVgqWclemmE">Better than Practice Labs</a>
+Additionally, there are a bunch of videos on youtube that show the full functionality can be learnt about.
+<a href="https://www.youtube.com/watch?v=ETF2R_ONTBU">Also better than Practice Labs</a></p>
+<h2 id="comparison-of-password-attacks">Comparison of Password Attacks</h2>
+<p>Brute forcing is not the only way in which a threat agent can attack through. Other ways include:</p>
+<ul>
+  <li>Traffic Interception</li>
+  <li>Man-in-the-middle</li>
+  <li>Key logging</li>
+  <li>Social Engineering (Phishing, Shoulder surfing, baiting)
+So how does brute forcing compare to each of these.
+There is no interception of traffic, rather everything is done client side so in comparison to those methods that require physical access to devices, it is far easier.
+Key-logging requires getting either software or hardware into the targets computer. This is both difficult and
+In comparison, simple shoulder surfing to get a password can be as if not more effective.</li>
+</ul>
+:ET

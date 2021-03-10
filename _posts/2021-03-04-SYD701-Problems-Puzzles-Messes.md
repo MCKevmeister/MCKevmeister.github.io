@@ -43,15 +43,14 @@ I feel like this is a great way to understand a puzzle. It has a clear set up, t
 
 ### Problem
 
-"A problem is more complicated than a puzzle, but less complicated than a mess. This complication stems from the fact that a problem has no single answer that is definitely known to be correct. At the heart of a problem is an issue that must be tackled." (Pidd, 2013)
+>"A problem is more complicated than a puzzle, but less complicated than a mess. This complication stems from the fact that a problem has no single answer that is definitely known to be correct. At the heart of a problem is an issue that must be tackled." (Pidd, 2013)
 
 I quite liked one of the points that one of my fellow classmates raised about a problem. His example was if your car had broken down. In that instance, there are several different ways to solve the problem, call a mechanic, try to fix it yourself, buy a new car etc. The solution to a problem really is unclear and needs to be defined by an entity interacting with the system that has a vested position. In the case of the car, it is likely that the car costs an amount of money, and likely that to solve the issue might cost either money or time. It could be beneficial to do a fast cost-benefit analysis on the side of the road, and if the problem cannot be resolved quickly a slower cost-benefit analysis once more information about possible solutions could be gathered.
 
 
 ### Mess
 
-"A mess is a set of circumstances in which there is extreme ambiguity
-and in which there may well be disagreement ... In a mess there is a whole range of possible definitions and descriptions of what is going on, and there may be no way of knowing whether a solution, as such, exists at all." (Pidd, 2013)
+>"A mess is a set of circumstances in which there is extreme ambiguity and in which there may well be disagreement ... In a mess there is a whole range of possible definitions and descriptions of what is going on, and there may be no way of knowing whether a solution, as such, exists at all." (Pidd, 2013)
 
 When trying to come up with an example of a mess, I struggled to think of anything beyond the video of the 3/11 Japan Tsunami.
 
@@ -62,3 +61,8 @@ The fact that a large part of Japan ended up being destroyed, the lack of abilit
 In the book Tools for thinking, Michael Pidd simplified Problems, Puzzles and Messes into the following diagram and I think it does incredibly well in defining simply what each is. All have a formulation and a Solution; however, those formulations and solutions are sometimes agreed and sometimes arguable.
 
 ![Problems Puzzles Messes](/assets/images/problems-puzzles-messes-mpidd.png) (Pidd, 2013)
+
+References
+
+Pidd, M. (2013). Tools for thinking : modelling in management science. Wiley.
+‌

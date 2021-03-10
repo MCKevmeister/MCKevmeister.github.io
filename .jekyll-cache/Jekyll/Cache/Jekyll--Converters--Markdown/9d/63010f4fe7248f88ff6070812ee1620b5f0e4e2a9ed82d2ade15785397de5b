@@ -1,0 +1,22 @@
+I"�<h2 id="explain-in-your-own-words-the-dos-attack-scenario">Explain in your own words the DoS attack scenario</h2>
+
+<p>A “denial of service” or DoS attack is when a single computer sends lots of requests to a server, so many that the server does not have the resources to respond to all of them. In its attempt to do so, the requests hog all of the system resources of the server machine that the server is no longer able to accept any new incoming request from client machines.</p>
+
+<p>An expansion on this idea of using one computer to attack a server, is something called a distributed denial of service attack (DDoS). The same idea applies where a host machine attempts to make a connection with a server, but at the same time 100’s or 1000’s of other client machines also attempt to make a connection with the same server. The server is unable to respond to all of the requests and will eventually not respond at all.</p>
+
+<h2 id="explain-in-your-own-words-how-the-hping3-attack-causes-the-denial-of-service">Explain in your own words how the Hping3 attack causes the denial of service</h2>
+
+<p>hping3 is a command line tool that allows the sending of icpm ping request packets similar to that of the ping tool. However, hping3 is scriptable and can also send TCP/IP, upd, and raw packets. By passing arguments with the hping3 command, you can send a specified number of packets to a server with a specified wait time in-between each packet. If those packets are ICPM requests the server will attempt to respond to them.  However if the number of packets sent is larger and the wait time between the packets very small (for example 100,000 packets with a 1 ms wait between packets) eventually the server will not be able to respond to the requests.</p>
+
+<h2 id="discuss-the-benefits-of-using-anti-phishing-functionality">Discuss the benefits of using anti-phishing functionality</h2>
+
+<p>Anti-phishing is built into most anti-virus or anti-malware technology. Some operating systems such as windows have anti-phishing built into the OS itself. While the practice labs mentioned an anti-phishing tool bar, I was unable to find this on my own host machine. Notably, education seems to be an important factor in defeating phishing attempts. Links from emails should NEVER be clicked even if the source is known and/or trusted.A technique that I have used for years is to either copy the text and paste it in a search engine or to manually enter the site myself. If there is some one time code in the referral I will manually write this in the browser if the source is from something I am expecting. I find however that most emails are now filtered out by spam filters, and that over the last couple of years either through diligence I have not seen as many dodgy emails that have links in them. However, checking my spam inbox I found an email that looks very much like a phishing email. While I opened it, I am aware that google will not load images attached to emails that are in a email in a spam filter, so that the sender does not get read reply’s. Below is a screenshot that I took of the email that I highly suspect is a phishing email.</p>
+
+<p><img src="/assets/images/phishy.png" alt="phishing email" />
+`
+References</p>
+
+<p>Norton. (2018). Norton.Com. https://us.norton.com/internetsecurity-emerging-threats-dos-attacks-explained.html</p>
+
+<p>Tcp Syn flood DOS attack with Hping. (n.d.). BinaryTides. Retrieved August 8, 2020, from https://www.binarytides.com/tcp-syn-flood-dos-attack-with-hping/</p>
+:ET

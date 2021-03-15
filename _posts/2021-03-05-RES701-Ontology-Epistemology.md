@@ -41,7 +41,7 @@ I think that knowing that there are different ways in which people can view the 
 
 So to answer the question, "how is ontology relevant to reasearch?", I'm going to assume the question is asked of my reasearch. As such, since I think the general concept of research being mostly a for-profit model now (see my previous blog post), I don't ontology will be relevent to my reasearch at all, as I never want to engage in that type of reasearch.
 
-That is not to say that I will not follow the scientific model of asking questions, formulating hypothesis and setting out to disprove those hypothesis as strongly as possible. I just cannot understand how in that process asking the question "What is real?" will help to produce a workable answer that will be of benefit. However, I do hope that I can be dispoven, as is the scientific mindset. Hopefully I can be shown how ontology is relevent.
+That is not to say that I will not follow the scientific model of asking questions, formulating hypothesis and setting out to disprove those hypothesis as strongly as possible. I just cannot understand how in that process asking the question "What is real?" will help to produce a workable answer that will be of benefit. However,  do hope that I can be dispoven, as is the scientific mindset. Hopefully I can be shown how ontology is relevent.
 
 ## What is epistemology? How is it relevant to research?
 

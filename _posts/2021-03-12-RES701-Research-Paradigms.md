@@ -5,7 +5,7 @@ date: 2021-03-12 12:28
 author: Mark Christison
 image: assets\images\paradigm.png
 category: [RES701]
-featured: false
+featured: true
 hidden: false
 ---
 

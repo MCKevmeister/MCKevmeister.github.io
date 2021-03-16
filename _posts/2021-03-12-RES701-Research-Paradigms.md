@@ -4,7 +4,7 @@ title: "Research Paradigms"
 date: 2021-03-12 12:28
 author: Mark Christison
 image: assets\images\paradigm.png
-category: [test]
+category: [RES701]
 featured: false
 hidden: false
 ---

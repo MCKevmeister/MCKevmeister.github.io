@@ -23,7 +23,7 @@ For this blog I am posting a set of 3 links on the subjects of "computational th
 
 ### CS50 Harvard Lecture
 
-Link: https://www.youtube-nocookie.com/embed/jjqgP9dpD1k
+Link: https://www.youtube.com/watch?v=jjqgP9dpD1k
 
 I found this video by following these logical steps
 
@@ -119,3 +119,18 @@ The informative article was written by Red Hat, the industrial producer of virtu
 The article explains what virtualization is and how it works at a high level.
 
 As with the VMware article, this source is also a commercial entity producing the information. It does not have the credibility that an independent article would have. However, it would not serve the business goals of informing their customers and encouraging them that Red Hat is competent and professional if they provided non-credible information on the website. For this reason, I think that the information is likely to be credible, however I would search again for non-biased sources if I wanted to be certain.
+
+## References
+
+CS50 2019 - Lecture 0 - Computational Thinking, Scratch. (2016, September 16). Www.youtube.com. https://www.youtube.com/watch?v=jjqgP9dpD1k
+
+DeepMind. (2020). AlphaGo - The Movie | Full Documentary. In YouTube. https://www.youtube.com/watch?v=WXuK6gekU1Y
+
+Silver, D., Schrittwieser, J., Simonyan, K., Antonoglou, I., Huang, A., Guez, A., Hubert, T., Baker, L., Lai, M., Bolton, A., Chen, Y., Lillicrap, T., Hui, F., Sifre, L., van den Driessche, G., Graepel, T., & Hassabis, D. (2017). Mastering the game of Go without human knowledge. Nature, 550(7676), 354–359. https://doi.org/10.1038/nature24270
+
+Uhlig, R., Neiger, G., Rodgers, D., Santoni, A. L., Martins, F. C. M., Anderson, A. V., Bennett, S. M., Kagi, A., Leung, F. H., & Smith, L. (2005). Intel virtualization technology. Computer, 38(5), 48–56. https://doi.org/10.1109/MC.2005.163
+
+VMWare. (2019, February 1). Virtualization. VMWare. https://www.vmware.com/solutions/virtualization.html
+
+What is virtualization? (2019). Redhat.com. https://www.redhat.com/en/topics/virtualization/what-is-virtualization
+‌

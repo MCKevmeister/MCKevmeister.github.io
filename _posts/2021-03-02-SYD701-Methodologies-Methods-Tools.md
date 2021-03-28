@@ -27,10 +27,7 @@ The next layer above tools, equivalent to the second year of systems development
 As time passes methods can change and adjust. Methods that were once in the popular zeitgeist become outdated and irrelevant as new methods become more efficient or effective at completing tasks. Naturally as more ways of using a collection of tools are trailed, the best rise to the top and become common place and standardized.
 
 
-### Mehodlogy
-#### (Did you mean Methodology Lars?)
-
-Assuming the latter (spell check is a great tool), I will provide a few definitions below.
+### Methodology
 
 Avison and Fitzgerald give the following definition
 

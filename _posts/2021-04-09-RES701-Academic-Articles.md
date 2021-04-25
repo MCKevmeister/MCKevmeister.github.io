@@ -19,7 +19,7 @@ The purpose of this blog is to search for and find 2 'acidemic' articles that re
     * **End of text**: Gyorodi, C., Gyorodi, R., Pecherle, G., & Olah, A. (2015). A comparative study: MongoDB vs. MySQL. 2015 13th International Conference on Engineering of Modern Electric Systems (EMES). https://doi.org/10.1109/emes.2015.7158433
     * **In-text**: (Gyorodi et al., 2015)
 * **How I found the article and what keywords you used**: 
-  * Searched on google schoolar for 'mongodb'
+  * Searched on google scholar for 'MongoDb'
   * It was not only the first result
 * **What kind of article it is**: Conference Paper
 * The reasons that I think it is an academic article: 
@@ -34,7 +34,6 @@ The purpose of this blog is to search for and find 2 'acidemic' articles that re
 * **How many citations it has**: 123
 * **URL**: https://www.researchgate.net/profile/Cornelia-Gyoroedi/publication/278302676_A_Comparative_Study_MongoDB_vs_MySQL/links/557fcb1a08aeea18b7797116/A-Comparative-Study-MongoDB-vs-MySQL.pdf
 
-
 ## Article 2
 
 * **Title**: The Effect of Ad Blocking on User Engagement with the Web
@@ -43,8 +42,8 @@ The purpose of this blog is to search for and find 2 'acidemic' articles that re
     * **End of text**: Miroglio, B., Zeber, D., Kaye, J., & Weiss, R. (2018). The Effect of Ad Blocking on User Engagement with the Web. Proceedings of the 2018 World Wide Web Conference on World Wide Web - WWW ’18. https://doi.org/10.1145/3178876.3186162
     * **In-text**: (Miroglio et al., 2018)
 * **How I found the article and what keywords you used**:
-  * Was browsing https://dl.acm.org for articles to refference
-  * Searched mozilla corporation
+  * Was browsing https://dl.acm.org for articles to reference
+  * Searched Mozilla corporation
   * Scolled down to the "most popular" section, it was the 8th article
 * **What kind of article it is**: Conference Paper
 * **The reasons that I think it is an academic article**: 

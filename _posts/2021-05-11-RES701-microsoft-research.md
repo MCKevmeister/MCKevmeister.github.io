@@ -3,7 +3,7 @@ layout: post
 title: "Research Case study: Microsoft - The Future of Work"
 date: 2021-05-07 17:43
 author: Mark Christison
-image: assets\images\fry.png
+image: assets\images\microsoftLogo.png
 category: [RES701]
 featured: true
 hidden: false

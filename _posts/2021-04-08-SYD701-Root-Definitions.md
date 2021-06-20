@@ -22,15 +22,10 @@ Below are examples of CATWOE sentances using the example of NMIT as a system.
 ### Student
 
 Client: The student themselves
-
 Actor: NMIT staff
-
 Transformation: Education
-
-World View: Learn skills to become a more valueable member of society
-
+World View: Learn skills to become a more valuable member of society
 Owner: Themselves
-
 Environment: Job Market
 
 Root definition: NMIT is providing education to me so that they can better themselves and learn marketable skills so that they can gain employment.

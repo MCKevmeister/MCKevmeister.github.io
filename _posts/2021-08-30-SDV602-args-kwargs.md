@@ -1,3 +1,15 @@
+---
+layout: post
+title: \*args and \**kwargs
+date: 2021-08-30 21:40
+category: SDV602
+author: Mark Christison
+image: assets\images\args-kwargs.jpg
+tags: [SDV602]
+featured: true
+hidden: false
+---
+
 ## *args
 
 Python *args parameter allows the function to accept multiple arguments. The * symbol before args keyword is called an "unpacking operator". This tells the interpreter that there will be a variable number of arguments provided. These args are passed to the function as a tuple.
@@ -18,8 +30,6 @@ if __name__ == "__main__":
     print(total)  # 10
     get_type("first argument", 1, 7)  # <class 'tuple'>
 ```
-
-
 
 ## **kwargs
 

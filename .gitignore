@@ -6,3 +6,5 @@ _site
 _posttemplates
 
 .jekyll-cache
+/_posts/old/
+/_posts/draft/

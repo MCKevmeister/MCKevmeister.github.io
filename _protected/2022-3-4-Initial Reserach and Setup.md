@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: encrypted
 title: Initial Research and Setup
 date: 2022-03-4 9:27 
 category: PRJ701
-image: assets/images/initial-research.jpg
+image: assets\\images\\initial-research.jpg
 featured: true
 hidden: false
 permalink: /:categories/:title

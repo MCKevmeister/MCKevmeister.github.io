@@ -1,0 +1,12 @@
+{
+  "name": "MCKevmeister.github.io",
+  "version": "1.0.0",
+  "devDependencies": {
+    "crypto-js": "^4.1.1",
+    "fs": "0.0.1-security",
+    "gulp": "^4.0.2",
+    "gulp-util": "^1.0.0",
+    "marked": "^4.0.12",
+    "through2": "^2.0.3"
+  }
+}

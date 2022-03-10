@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: encrypted
 title: Project Kickoff
 date: 2022-2-25 20:22
 category: PRJ701
@@ -56,7 +56,7 @@ install. [MQTT.js](https://www.npmjs.com/package/mqtt) was used to create the cl
 topic, and on receiving a message, a put request would be sent to an API endpoint. The API would the process the request
 and update the status of an employee in the database.
 
-![MQTT](../../assets/images/mqtt.png)
+![MQTT](../assets/images/mqtt.png)
 
 In the end, the project taught me a lot about
 

@@ -10,3 +10,5 @@ _posttemplates
 /_posts/draft/
 
 gulpfile.js
+/node_modules/
+/package-lock.json

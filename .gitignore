@@ -8,3 +8,5 @@ _posttemplates
 .jekyll-cache
 /_posts/old/
 /_posts/draft/
+
+gulpfile.js

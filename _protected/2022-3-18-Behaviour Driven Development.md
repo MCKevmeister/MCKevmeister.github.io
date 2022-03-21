@@ -1,6 +1,11 @@
 ---
-layout: encrypted title: Behaviour Driven Development date: 2022-03-18 11:35 category: PRJ701 image:
-assets\\images\\bdd-double-loop.png featured: true hidden: false permalink: /:categories/:title
+layout: encrypted title: Behaviour Driven Development 
+date: 2022-03-18 11:35 
+category: PRJ701 
+image: assets\\images\\bdd-double-loop.png 
+featured: true 
+hidden: false 
+permalink: /:categories/:title
 ---
 
 # Behaviour Driven Development

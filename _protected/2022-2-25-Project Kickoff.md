@@ -1,11 +1,11 @@
 ---
-layout: encrypted
-title: Project Kickoff
-date: 2022-2-25 20:22
-category: PRJ701
-image: assets\\images\\concept-development-device-flat.jpeg
-featured: true
-hidden: false
+layout: encrypted 
+title: Project Kickoff 
+date: 2022-2-25 20:22 
+category: PRJ701 
+image: assets\\images\\concept-development-device-flat.jpeg 
+featured: true 
+hidden: false 
 permalink: /:categories/:title
 ---
 
@@ -56,7 +56,7 @@ install. [MQTT.js](https://www.npmjs.com/package/mqtt) was used to create the cl
 topic, and on receiving a message, a put request would be sent to an API endpoint. The API would the process the request
 and update the status of an employee in the database.
 
-![MQTT](../assets/images/mqtt.png)
+![MQTT](/assets/images/mqtt.png)
 
 In the end, the project taught me a lot about
 
@@ -88,3 +88,37 @@ During the week I have been gathering research on Test Driven Development and Mo
 is a plethora of resources on Test Driven Development, I could find little about modular development. That was, until I
 stumbled upon the article by Martin Fowler on [Microservices](https://martinfowler.com/articles/microservices.html) and
 [Laravel Package Development](https://laravelpackage.com/).
+
+## Person in Need
+
+John is a 23-year-old male living in central Nelson. He works part-time as a labourer, but is struggling to pay his
+weekly bills. Often he needs to make a choice between paying his weekly bills and buying quality food for himself. He
+has enquired with the citizens' advice bureau, and they have suggested that he should buy food. They gave him the
+contact details of several food bank services. He goes to the library and uses a computer to find out about the Nelson
+food bank. He goes to the home page and reads the description of the food bank. He then goes to the contact page and
+reads the contact details. After this he understands that to be eligible for food packages, he needs to exchange tokens
+for food parcels. He signs up for an account on the website and gets tokens. He exchanges his tokens for a food package.
+
+## Single Parent of 2 children
+
+Mary is a single mother of 2 children. She is currently living in Richmond with her partner, and has been living there
+for the past few years after separating from her ex-partner in Christchurch. Due to having to care for her children
+during covid, she is struggling to find a stable job. This is a time of great stress, and she is looking for a job that
+will allow her to provide for her children long term.
+
+One of her friends has been working in the food bank for the past few months, and has suggested that Mary should use the
+services provides to help her children. She asked the friend to help her as she isn't that technical. She has been able
+to create an account on the website with the friends help. She exchanges tokens for food parcels, and is able to feed
+her family.
+
+## Producer with too much Food
+
+Micheal owns a salad factory in Stoke. He is currently working on a project to increase the number of contracts he has
+in the region. This has required him to ensure that he has enough product to meet the demand. There has been a down turn
+in the market, and he is looking to increase his sales. He has been able to find a suppliers of produce, and has been
+able to sell some of his product. He is looking for ways to increase his sales and considers the possibility of
+partnering with a food bank to help him improve the brand image of the company. He reaches out to the food bank and
+arranges a meeting with them to discuss establishing an ongoing relationship whereby he can provide seconds and old
+product to the food bank in exchange for promotion of his brand on the website and in their social media. He reaches out
+to the local newspaper and writes a story about the partnership. The newspaper publishes the story and the food bank
+receives praise for its commitment to the community. Michaels company is now in the spotlight, and the food bank is          

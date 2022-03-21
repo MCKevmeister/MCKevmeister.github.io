@@ -1,11 +1,6 @@
 ---
-layout: encrypted title: Behaviour Driven Development 
-date: 2022-03-18 11:35 
-category: PRJ701 
-image: assets\\images\\bdd-double-loop.png 
-featured: true 
-hidden: false 
-permalink: /:categories/:title
+layout: encrypted title: Behaviour Driven Development date: 2022-03-18 11:35 category: PRJ701 image:
+assets\\images\\bdd-double-loop.png featured: true hidden: false permalink: /:categories/:title
 ---
 
 # Behaviour Driven Development
@@ -103,6 +98,12 @@ When building many modules as Snap plans to do, how is it best to manage the BDD
 whereby all BDD tests are stored in a single repository. It may be best for this example to store the integration
 feature tests in a separate repository, while storing all the feature tests for a single module in the repository with
 the code.(Rahman & Gao, 2015)
+
+## Workflow
+
+To resolve some complexity around the BDD workflow with TDD, Jessica Mauerhan has created the image attached with this
+post. She presented what she calls the double loop workflow, which shows the flow of Behaviour Tests to Unit Tests and
+when to run them during development. The workflow 
 
 ## References
 

@@ -12,3 +12,4 @@ _posttemplates
 gulpfile.js
 /node_modules/
 /package-lock.json
+/.idea/

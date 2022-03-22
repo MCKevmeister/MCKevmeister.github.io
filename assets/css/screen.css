@@ -9,7 +9,7 @@ License: https://www.wowthemes.net/freebies-license/
 }
 
 .mainheading {
-    padding: 1rem 0rem;
+    padding: 1rem 0;
 }
 
 a {
@@ -33,10 +33,9 @@ pre {
     white-space: pre;
     overflow: auto;
     background: #fff;
-    border-radius: 0px;
+    border-radius: 0;
     line-height: 1.6;
     color: #333;
-    margin-bottom: -rem;
 }
 
 .mediumnavigation {
@@ -66,10 +65,8 @@ section.recent-posts {
 
 .section-title h2 {
     border-bottom: 1px solid rgba(0, 0, 0, .125);
-    margin-bottom: 25px;
     font-weight: 700;
     font-size: 1.4rem;
-    margin-bottom: 27px;
 }
 
 .section-title span {
@@ -87,7 +84,7 @@ section.recent-posts {
 .article-post ol ol,
 .article-post ul ul {
     list-style: disc;
-    margin-bottom: 0rem;
+    margin-bottom: 0;
 }
 
 @media (min-width:576px) {
@@ -112,9 +109,7 @@ section.recent-posts {
 }
 
 .listfeaturedtag .wrapthumbnail {
-    height: 290px;
     flex: 0 0 auto;
-    height: 100%;
 }
 
 .maxthumb {
@@ -331,7 +326,7 @@ span.post-read-more a:hover {
 }
 
 .article-post {
-    font-family: nunito, Merriweather;
+    font-family: nunito, Merriweather, serif;
     font-size: 1.1rem;
     line-height: 1.84;
     color: rgba(0, 0, 0, .8);
@@ -431,7 +426,7 @@ blockquote {
     }
 
     .alertbar input[type="email"] {
-        margin-right: 0px !Important;
+        margin-right: 0 !Important;
         display: block;
         border-right: 1px solid #ddd !Important;
         margin-bottom: 10px;
@@ -456,8 +451,8 @@ blockquote {
     }
 
     .footer {
-        margin-top: 0px;
-        margin-bottom: 0px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }
 
@@ -521,8 +516,7 @@ ul.tags li a:hover {
     height: 1px;
     width: 20px;
     background: #999;
-    margin: 0px auto;
-    margin-bottom: 1.2rem;
+    margin: 0 auto 1.2rem;
 }
 
 .btn.follow {
@@ -577,7 +571,7 @@ ul.tags li a:hover {
     border-right: 0;
     margin-right: -10px;
     height: 34px;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     margin-left: 5px;
 }
 
@@ -587,13 +581,11 @@ ul.tags li a:hover {
     color: rgba(255, 255, 255, 1);
     fill: rgba(255, 255, 255, 1);
     font-size: 0.85rem;
-    border-radius: 0;
     padding: 4px 10px;
-    border-top-right-radius: 3px;
-    border-bottom-right-radius: 3px;
+    border-radius: 0 3px 3px 0;
     font-weight: 600;
     height: 34px;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     cursor: pointer;
 }
 
@@ -644,8 +636,7 @@ ul.tags li a:hover {
 
 .authorpostbox {
     width: 760px;
-    margin: 0px auto;
-    margin-bottom: 1.5rem;
+    margin: 0 auto 1.5rem;
     max-width: 100%;
 }
 
@@ -706,9 +697,9 @@ h6 {
 }
 
 .article-post img.shadow {
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
-    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.30);
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.30);
+    -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.30);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.30);
 }
 
 .layout-page .article-post {
@@ -729,7 +720,7 @@ img {
     font-size: 0.93rem;
     padding: 15px 0 0 0;
     text-align: center;
-    margin-bottom: 0rem;
+    margin-bottom: 0;
     color: #999;
     border-top: 1px solid #ddd;
 }
@@ -875,7 +866,7 @@ iframe {
     line-height: 1;
     padding: 2px 3px;
     width: 150px;
-    font-family: nunito, Arial;
+    font-family: nunito, Arial, serif;
     text-align: center;
     border-radius: 3px;
     transition: all .4s;

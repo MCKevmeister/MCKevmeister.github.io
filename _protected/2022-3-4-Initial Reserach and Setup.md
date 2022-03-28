@@ -1,3 +1,4 @@
+[//]: # "@formatter:off"
 ---
 layout: encrypted
 title: Initial Research and Setup
@@ -8,6 +9,7 @@ featured: true
 hidden: false
 permalink: /:categories/:title
 ---
+[//]: # "@formatter:on"
 
 ## Setup
 

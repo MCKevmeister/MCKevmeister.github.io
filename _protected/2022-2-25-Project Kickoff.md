@@ -1,3 +1,4 @@
+[//]: # "@formatter:off"
 ---
 layout: encrypted 
 title: Project Kickoff 
@@ -8,6 +9,7 @@ featured: true
 hidden: false 
 permalink: /:categories/:title
 ---
+[//]: # "@formatter:on"
 
 ## Summer Internship
 

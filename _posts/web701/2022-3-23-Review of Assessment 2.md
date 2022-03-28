@@ -1,3 +1,4 @@
+[//]: # "@formatter:off"
 ---
 layout: post
 title: Review of Assessment 2
@@ -8,6 +9,7 @@ featured: true
 hidden: false
 permalink: /:categories/:title
 ---
+[//]: # "@formatter:on"
 
 For this assessment, I have provided design for the concept of the website that I will be
 building for the charity. The charity will exchange tokens for food items, but also may exchange tokens for services in

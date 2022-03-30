@@ -60,12 +60,6 @@ function encrypt(password) {
     });
 }
 
-gulp.task('firewall:encrypt', () => {
-    return gulp.src('_protected/*.md')
-        .pipe(encrypt('B4qLrT%5mCW&y3'))
-        .pipe(gulp.dest('_posts/prj701/'));
-});
-
 /*
   END FIREWALL TASKS
 */

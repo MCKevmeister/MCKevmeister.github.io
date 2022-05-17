@@ -2,7 +2,7 @@
 layout: post
 title: Review of Evaluate Assignment
 date: 2022-05-18 9:43
-category: web701
+category: WEB701
 image: assets/images/review2.jpg
 featured: true
 hidden: false

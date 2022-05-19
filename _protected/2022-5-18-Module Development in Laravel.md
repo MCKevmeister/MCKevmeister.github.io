@@ -71,3 +71,30 @@ The installation script in the package skeleton is currently empty. It would mak
 
 [spatie/laravel-ray](https://github.com/spatie/laravel-ray) - While the debug features offered by ray are useful, it may be hard to justify the cost of $71/year if not fully utilized in development. Adds bloat to the package.
 
+## References
+
+Artisan commands - Laravel Modules Docs. (n.d.). Docs.laravelmodules.com. Retrieved May 18, 2022, from https://docs.laravelmodules.com/v9/artisan-commands
+
+Braun, J. (n.d.). Introduction | Laravel Package Development. Laravelpackage.com. Retrieved May 18, 2022, from https://laravelpackage.com/
+
+Brown, J. (2022, May 13). Laravel Module Installer. GitHub. https://github.com/joshbrw/laravel-module-installer
+
+Build your own module generator - Laravel Modules Docs. (n.d.). Docs.laravelmodules.com. Retrieved May 18, 2022, from https://docs.laravelmodules.com/v9/custom-module-generator
+
+Dependabot s private dependencies. (2021, March 15). The GitHub Blog. https://github.blog/2021-03-15-dependabot-private-dependencies/
+
+Faustino, D., Gonçalves, N., Portela, M., & Silva, A. R. (2022). Stepwise Migration of a Monolith to a Microservices Architecture: Performance and Migration Effort Evaluation. ArXiv:2201.07226 [Cs]. https://arxiv.org/abs/2201.07226
+
+Laravel - The PHP Framework For Web Artisans. (n.d.-a). Laravel.com. Retrieved May 18, 2022, from https://laravel.com/docs/9.x/artisan
+
+Laravel - The PHP Framework For Web Artisans. (n.d.-b). Laravel.com. https://laravel.com/docs/9.x/packages
+
+Laravel Testing Helper for Packages Development. (2022, May 17). GitHub. https://github.com/orchestral/testbench
+
+Newman, S. (2020, May 5). Monolith Decomposition Patterns. InfoQ. https://www.infoq.com/presentations/microservices-principles-patterns/
+
+Spatie. (2022, May 18). :package_description. GitHub. https://github.com/spatie/package-skeleton-laravel
+
+Widart, N. (2016, January 7). Writing modular applications with laravel-modules | Nicolas Widart. Nicolaswidart.com. https://nicolaswidart.com/blog/writing-modular-applications-with-laravel-modules
+
+Widart, N. (2022, May 18). Laravel-Modules. GitHub. https://github.com/nWidart/laravel-modules

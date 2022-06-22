@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Review of Assessment 2
+title: Review of Design Assignment
 date: 2022-03-23 10:37
 category: WEB701
 image: assets/images/design-a-website.jpg

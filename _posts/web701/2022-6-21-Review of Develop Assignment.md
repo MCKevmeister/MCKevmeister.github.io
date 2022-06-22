@@ -7,7 +7,7 @@ image: assets/images/develop-image.jpg
 featured: true
 hidden: false
 permalink: /:categories/:title
-
+---
 
 Deploying the website to Heroku was possibly the most challenging part of the project. While there are numerous guides
 on how to do this for a Laravel application, the challenge occurred when trying to deploy both a Laravel and Svelte

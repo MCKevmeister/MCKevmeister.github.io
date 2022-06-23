@@ -9,20 +9,20 @@ hidden: false
 permalink: /:categories/:title
 ---
 
-For this assessment, I have provided design for the concept of the website that I will be
+For this assessment, I have provided a design for the concept of the website that I will be
 building for the charity. The charity will exchange tokens for food items, but also may exchange tokens for services in
 the future. The parameters are quite vague, so I have taken the liberty of providing as much detail as I can throughout.
 
-Included with the submission of this document is the subbed code for both a Express (OpenJS Foundation, 2017), Node (
+Included with the submission of this document is the subbed code for both an Express (OpenJS Foundation, 2017), Node (
 Node.js Foundation, 2019), and MongoDb (MongoDB, 2019) implementation of the website, as well as a Laravel (Otwell,
 2015), Vue (You, 2000), and Postgres (The PostgreSQL Global Development Group, 2019)  implementation of the website. I
-am not sure if I will continue to use these choices for assessment 2, however they are what I have coded to date. I am
+am not sure if I will continue to use these choices for assessment 2, however, they are what I have coded to date. I am
 considering creating a Svelte (Svelte, n.d.)  front end for the Laravel backend.
 
 I followed the document that was shared on the teams for the class as a template for the required sections. I had not
-come across metaphor exploration before, but the book “Information Architecture for the World Wide Web”  (Morville,
+come across metaphor exploration before but in the book “Information Architecture for the World Wide Web”  (Morville,
 n.d.) provided details about the ideas. I’m not sure that I personally find it useful for this project, as I am working
-individually, however I do see some benefit to using it in a team and with an actual customer as it would allow the
+individually, however, I do see some benefit to using it in a team and with an actual customer as it would allow the
 exchange of ideas back and forward in more conceptual terms rather than technical details.
 
 Personally, I am not comfortable with JavaScript, and find it to be difficult to read. The use of all the different
@@ -30,7 +30,7 @@ brackets ((), {}, []) seems inconsistent. Additionally, some lines seem to need 
 seems somewhat arbitrary. For this reason, I am considering doing my final assessment with Laravel.
 
 I have found several useful guides for learning and understanding Laravel at the Laracasts website, one for building and
-understanding the current version of the framework (Laracasts, n.d.-b), and one for building a full stack website with
+understanding the current version of the framework (Laracasts, n.d.-b), and one for building a full-stack website with
 an additional framework called inertia.js (Laracasts, n.d.-a). I find the way that inertia utilizes the backend to
 manage routing to make more sense, as routing is closer to domain logic rather than being a concern of the front end. I
 am sure that there are some pitfalls of this approach, but I find that it allows for a better separation of concerns.

@@ -3,7 +3,7 @@ layout: encrypted
 title: "Modular Laravel Packages with Cypress Testing"
 date: 2022-03-30 19:36
 category: PRJ701
-image: assets/images/cypress_laravel.png
+image: assets/images/cypress_laravel_small.png
 featured: true
 hidden: false
 permalink: /:categories/:title

@@ -3,7 +3,7 @@ layout: post
 title: Review of Develop Assignment
 date: 2022-06-21 16:36
 category: WEB701
-image: assets/images/develop-image.jpg
+image: assets/images/develop-image-small.jpg
 featured: true
 hidden: false
 permalink: /:categories/:title

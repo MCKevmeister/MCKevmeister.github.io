@@ -8,6 +8,10 @@
 	display:inline;
 }
 
+body {
+	touch-action: pan-y;
+}
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
 	"syntax",
